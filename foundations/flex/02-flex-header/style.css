@@ -1,6 +1,9 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content:space-between
+  
 }
 
 .logo {
@@ -20,6 +23,25 @@ a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  margin: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+
+
+div .left-links ul {
+  display: flex;
+  justify-self: left;
+  padding: 0px;
+}
+
+div .right-links ul {
+  display: flex;
+  justify-self: right;
+}
+
+div {
+  display: flex;
+  align-items: center;
 }
